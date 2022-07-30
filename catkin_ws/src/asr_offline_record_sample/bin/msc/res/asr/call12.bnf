@@ -1,0 +1,13 @@
+#BNF+IAT 1.0;
+!grammar call;
+!slot <order>;
+!slot <project>;
+!slot <else>;
+!slot <elsed>;
+!start <commands>;
+
+<commands>:<order>[<else>]<project>|<order>[<else>]<project><elsed><project>;
+<order>:want | need | wish | hope ;
+<else>:a | own |and;
+<elsed>:and  ;
+<project>: cocacola | spring | fenda |water;   

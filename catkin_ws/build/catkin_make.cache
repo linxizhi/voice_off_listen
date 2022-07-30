@@ -1,0 +1,2 @@
+asr_offline_record_sample:myrobot_voice/myrobot_voice:xf_voice
+-DCATKIN_DEVEL_PREFIX=/home/linxi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/linxi/catkin_ws/install -G Unix Makefiles
